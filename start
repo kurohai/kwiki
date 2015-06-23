@@ -1,0 +1,2 @@
+#!/bin/bash
+python27 manage.py runserver -h 0.0.0.0 -p 80 -r -d 
