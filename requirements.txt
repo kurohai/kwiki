@@ -8,3 +8,5 @@ cherrypy
 WTForms
 SQLAlchemy
 flask-markdown
+flask-pagedown
+flask-wtf
