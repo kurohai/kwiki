@@ -1,44 +1,100 @@
-from sdmsapp import metadata, Base, Table
+from sqlalchemy import Column
+from sqlalchemy.types import DateTime, Integer, String
+import datetime
+from sqlalchemy import Column, ForeignKey, Float
+from sqlalchemy import Boolean, DateTime, Integer
+from sqlalchemy import String, Text, BigInteger
+from sqlalchemy.orm import relationship, synonym
+from sqlalchemy.ext.declarative import declarative_base
+from werkzeug import check_password_hash, generate_password_hash
+from flask.ext.login import AnonymousUserMixin
+from sqlalchemy.ext.declarative import *
+from dicto import dicto
+import time
+from decimal import *
+from kwiki import Base
 
-# required tables
+class User(Base):
 
-class arcustmr(Base):
-    __table__ = Table('arcustmr', metadata, autoload=True, schema='dsgi')
+    """A user login, with credentials and authentication."""
+    __tablename__ = 'user'
+
+    id = Column(Integer, primary_key=True)
+    created = Column(DateTime, default=datetime.datetime.now)
+    modified = Column(DateTime, default=datetime.datetime.now, onupdate=datetime.datetime.now)
+    admin = Column(Boolean, default=False)
+    name = Column('name', String(200))
+    username = Column(String(100), unique=True, nullable=False)
+    active = Column(Boolean, default=True)
+    email = Column(String(100), unique=True, nullable=False)
+    _password = Column('password', String(100))
+    # game_id = Column(Integer, ForeignKey('game.id'))
+    current_game = Column(Integer)
+    # user = relationship(
+    #     'User',
+    #     backref='games',
+    #     primaryjoin='Game.user_id == User.id',
+    #     lazy='joined',
+    # )
+
+
+    def _get_password(self):
+        return self._password
+
+    def _set_password(self, password):
+        if password:
+            password = password.strip()
+        self._password = generate_password_hash(password)
+
+    password_descriptor = property(_get_password, _set_password)
+    password = synonym('_password', descriptor=password_descriptor)
+
+    def check_password(self, password):
+        if self.password is None:
+            return False
+        password = password.strip()
+        if not password:
+            return False
+        return check_password_hash(self.password, password)
+
+    @classmethod
+    def authenticate(cls, query, username, password):
+        username = username.strip().lower()
+        user = query(cls).filter(cls.username == username).first()
+        if user is None:
+            return None, False
+        if not user.active:
+            return user, False
+        return user, user.check_password(password)
+
+    def get_game(self):
+        for g in self.games:
+            if g.is_active():
+                self.current_game = g.id
+                self.game = g
+                return self.game
+
+    # Hooks for Flask-Login.
+    #
+    # As methods, these are only valid for User instances, so the
+    # authentication will have already happened in the view functions.
+    #
+    # If you prefer, you can use Flask-Login's UserMixin to get these methods.
+
+    def get_id(self):
+        return str(self.id)
+
+    def is_active(self):
+        return self.active
+
+    def is_anonymous(self):
+        return False
+
+    def is_authenticated(self):
+        return True
+
+    def is_admin(self):
+        return self.admin
+
     def __repr__(self):
-        return str(self.cust_no)
-
-
-class sainvlin(Base):
-    __table__ = Table('sainvlin', metadata, autoload=True, schema='dsgi')
-    def __repr__(self):
-        return str(self.cust_no)
-
-
-class sainvhdr(Base):
-    __table__ = Table('sainvhdr', metadata, autoload=True, schema='dsgi')
-    def __repr__(self):
-        return str(self.cust_no)
-
-
-# new unknown tables
-
-class division(Base):
-    __table__ = Table('division', metadata, autoload=True, schema='dsgi')
-    # def __repr__(self):
-    #     me = ' '.join([(k,v) for k,v in self.items()])
-    #     return str(me)
-
-# class invoice_summary(Base):
-#     __table__ = Table('invoice_summary', metadata, autoload=True, schema='dsgi')
-#     def __repr__(self):
-#         return str(self.cust_no)
-
-class arhistry(Base):
-    __table__ = Table('arhistry', metadata, autoload=True, schema='dsgi')
-    # def __repr__(self):
-    #     return str(self.cust_no)
-
-class artransf(Base):
-    __table__ = Table('artransf', metadata, autoload=True, schema='dsgi')
-    # def __repr__(self):
-    #     return str(self.cust_no)
+        return u'<{self.__class__.__name__}: {self.id} Username: {self.username}>'.format(self=self)

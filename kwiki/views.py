@@ -1,16 +1,11 @@
 from flask import Blueprint
 from flask import render_template, request, url_for
-from kwiki import *
-# from v5db import oracle_date
-
 from dicto import dicto
 from sqlalchemy import and_
 from pprint import pprint
 import codecs
 import os
-
-pwd = os.path.abspath(os.curdir)
-
+from kwiki import *
 
 
 blueprint = Blueprint('kwikiapp', __name__)
@@ -18,11 +13,11 @@ blueprint = Blueprint('kwikiapp', __name__)
 @blueprint.route('/notemd/', methods=['GET', 'POST'])
 @blueprint.route('/notemd/<note>/', methods=['GET', 'POST'])
 def notemd(note=None):
-    
-
     if note is None:
-        note = ('# Enter your markdown note here.\n'
-            '## Preview your note at the bottom.\n')
+        note = (
+            '# Enter your markdown note here.\n'
+            '## Preview your note at the bottom.\n'
+        )
     else:
         filepath = os.path.join(pwd, 'kwiki', 'ref', note)
         if os.path.isfile(filepath):
@@ -53,18 +48,6 @@ def note(note=None):
     return render_template('public/note.html', note=note)
 
 
-
-
-
-
 @blueprint.route('/')
 def home():
     return render_template('public/index.html')
-
-
-# extra application routes
-
-@blueprint.errorhandler(404)
-def error_not_found(error):
-    """Render a custom template when responding with 404 Not Found."""
-    return 'No page here, dood. 404!', 404

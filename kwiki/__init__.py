@@ -3,26 +3,61 @@
 # @Author: kurohai
 # @Date:   2015-11-18 21:47:31
 # @Last Modified by:   root
-# @Last Modified time: 2015-11-18 21:50:06
+# @Last Modified time: 2015-11-18 22:24:33
 
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
+
+from sqlalchemy.orm import Session, scoped_session, sessionmaker
 from sqlalchemy import create_engine, inspect
 from sqlalchemy import MetaData, Table
+from sqlalchemy.ext.declarative import *
 from flask import Flask
 import datetime
 import os
-import logging
-from logging.handlers import RotatingFileHandler
+from dicto import dicto
+import flask.ext.restless
+from flask.ext.socketio import SocketIO
+from flask.ext.admin import Admin
+from flask.ext.admin.contrib.sqla import ModelView
 
 
-# data_models = [
-#     'arcustmr', 
-#     'sainvlin', 
-#     'sainvhdr',
-#     'division',
-#     'artransf',
-# ]
+appname = 'Kwiki App'
+appnamed = 'kwiki'
+pwd = os.path.abspath(os.curdir)
+
+dbpath = '{dir}/{app}.db'.format(dir=pwd, app=appnamed)
+dburi = 'sqlite:///{db}'.format(db=dbpath)
+
+
+@as_declarative()
+class BaseBase(dicto):
+
+    def __hash__(self):
+        return hash(self.id)
+
+    @declared_attr
+    def __tablename__(cls):
+        return cls.__name__.lower()
+
+
+Base = BaseBase
+
+engine = create_engine(dburi)
+metadata = MetaData(bind=engine)
+session = Session(engine)
+db_session = scoped_session(
+    sessionmaker(
+        autocommit=True,
+        autoflush=True,
+        bind=engine
+    )
+)
+
+Base.metadata = metadata
+Base.query = db_session.query_property()
+
+
+from models import *
+from kwikiapp import kwikifapp
 
 
 
@@ -58,3 +93,4 @@ from logging.handlers import RotatingFileHandler
 
 from forms import *
 from views import blueprint
+kwikifapp.register_blueprint(blueprint)
