@@ -87,103 +87,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "grep \"\\*864\\*\" /sc/ap/mailbox/walmart/i.* | wmfix\n\n\n/sc/ap/mailbox/walmart/i.wmar.150702005002:\n\nISA*00*          *00*          *08*925485US00     *ZZ*129544BR       *150702*0045*:*00501*864010042*0*P*>~\nGS*TX*925485US00*129544BR*20150702*0045*864010042*X*005010~\nST*864*0001~\nBMG*00*THESE DOCUMENTS WILL NOT BE PROCESSED.*03~\nN1*FR*WALMART 00818/LIQUORS*UL*0078742000008~\nN1*TO*Buffalo Rock Co~\nREF*IA*129544~\nREF*IV*000000027930140~\nMIT*PLEASE CORRECT AND RESEND.*THESE DOCUMENTS WILL NOT BE PROCESSED.*175*60~\nMSG*SEGMENT      ELEMENT      ERROR*SS~\nMSG*INVOICE NUMBER    PO NUMBER     ID        POS - REF      DATA                     COMMENTS*SS~\nMSG*27930140                  BIG       004 - 324     001200050404              PO NUMBER IS MISSING                 PROD*SS~\nMSG*27930140                  N1        004 - 067     001200050404              D & B / GLN NUMBER IS MISSING        PROD*SS~\nMSG*27930140                  N1        001 - 004     001200050404              INVALID STORE # PRESENT ON DUNS/GLN  PROD*SS~\nMSG*27930140                  N1        999 - 998     001200050404              NO N1 ST SEGMENT WAS PRESENT         PROD*SS~\nSE*14*0001~\nGE*1*864010042~\nIEA*1*864010042~\n\n/sc/ap/mailbox/walmart/i.wmar.150704071503:\n\nISA*00*          *00*          *08*925485US00     *ZZ*129544BR       *150704*0708*:*00501*864010043*0*P*>~\nGS*TX*925485US00*129544BR*20150704*0708*864010043*X*005010~\nST*864*0001~\nBMG*00*THESE DOCUMENTS WILL NOT BE PROCESSED.*03~\nN1*FR*WALMART 00818/LIQUORS*UL*0078742000008~\nN1*TO*Buffalo Rock Co~\nREF*IA*129544~\nREF*IV*000000027930221~\nMIT*PLEASE CORRECT AND RESEND.*THESE DOCUMENTS WILL NOT BE PROCESSED.*175*60~\nMSG*SEGMENT      ELEMENT      ERROR*SS~\nMSG*INVOICE NUMBER    PO NUMBER     ID        POS - REF      DATA                     COMMENTS*SS~\nMSG*27930221                  BIG       004 - 324     001200050404              PO NUMBER IS MISSING                 PROD*SS~\nMSG*27930221                  N1        004 - 067     001200050404              D & B / GLN NUMBER IS MISSING        PROD*SS~\nMSG*27930221                  N1        001 - 004     001200050404              INVALID STORE # PRESENT ON DUNS/GLN  PROD*SS~\nMSG*27930221                  N1        999 - 998     001200050404              NO N1 ST SEGMENT WAS PRESENT         PROD*SS~\nSE*14*0001~\nGE*1*864010043~\nIEA*1*864010043~\n\n/sc/ap/mailbox/walmart/i.wmar.150714032003:\n\nISA*00*          *00*          *08*925485US00     *ZZ*129544BR       *150714*0228*:*00501*864010044*0*P*>~\nGS*TX*925485US00*129544BR*20150714*0228*864010044*X*005010~\nST*864*0001~\nBMG*00*THESE DOCUMENTS WILL NOT BE PROCESSED.*03~\nN1*FR*WALMART 00818/LIQUORS*UL*0078742000008~\nN1*TO*Buffalo Rock Co~\nREF*IA*129544~\nREF*IV*000000027932731~\nMIT*PLEASE CORRECT AND RESEND.*THESE DOCUMENTS WILL NOT BE PROCESSED.*175*60~\nMSG*SEGMENT      ELEMENT      ERROR*SS~\nMSG*INVOICE NUMBER    PO NUMBER     ID        POS - REF      DATA                     COMMENTS*SS~\nMSG*27932731                  BIG       004 - 324     001200001420              PO NUMBER IS MISSING                 PROD*SS~\nMSG*27932731                  N1        004 - 067     001200001420              D & B / GLN NUMBER IS MISSING        PROD*SS~\nMSG*27932731                  N1        001 - 004     001200001420              INVALID STORE # PRESENT ON DUNS/GLN  PROD*SS~\nMSG*27932731                  N1        999 - 998     001200001420              NO N1 ST SEGMENT WAS PRESENT         PROD*SS~\nSE*14*0001~\nGE*1*864010044~\nIEA*1*864010044~\n\n/sc/ap/mailbox/walmart/i.wmar.150717010003:\n\nISA*00*          *00*          *08*925485US00     *ZZ*068494BR       *150717*0052*:*00501*864010041*0*P*>~\nGS*TX*925485US00*068494BR*20150717*0052*864010041*X*005010~\nST*864*0001~\nBMG*00*THESE DOCUMENTS WILL NOT BE PROCESSED.*03~\nN1*FR*SAMS 8212/V068494*UL*0078742000008~\nN1*TO*Buffalo Rock Co~\nREF*IA*068494~\nREF*IV*000000040819679~\nMIT*PLEASE CORRECT AND RESEND.*THESE DOCUMENTS WILL NOT BE PROCESSED.*175*60~\nMSG*SEGMENT      ELEMENT      ERROR*SS~\nMSG*INVOICE NUMBER    PO NUMBER     ID        POS - REF      DATA                     COMMENTS*SS~\nMSG*40819679   DUPLICATE      BIG       001 - 471                               INVALID SAMS PO NUMBER               PROD*SS~\nSE*11*0001~\nGE*1*864010041~\nIEA*1*864010041~\n\n/sc/ap/mailbox/walmart/i.wmar.150721030503:\n\nISA*00*          *00*          *08*925485US00     *ZZ*129544BR       *150721*0231*:*00501*864010045*0*P*>~\nGS*TX*925485US00*129544BR*20150721*0231*864010045*X*005010~\nST*864*0001~\nBMG*00*THESE DOCUMENTS WILL NOT BE PROCESSED.*03~\nN1*FR*WALMART 00818/LIQUORS*UL*0078742000008~\nN1*TO*Buffalo Rock Co~\nREF*IA*129544~\nREF*IV*000000027940006~\nMIT*PLEASE CORRECT AND RESEND.*THESE DOCUMENTS WILL NOT BE PROCESSED.*175*60~\nMSG*SEGMENT      ELEMENT      ERROR*SS~\nMSG*INVOICE NUMBER    PO NUMBER     ID        POS - REF      DATA                     COMMENTS*SS~\nMSG*27940006                  BIG       004 - 324     001200050404              PO NUMBER IS MISSING                 PROD*SS~\nMSG*27940006                  N1        004 - 067     001200050404              D & B / GLN NUMBER IS MISSING        PROD*SS~\nMSG*27940006                  N1        001 - 004     001200050404              INVALID STORE # PRESENT ON DUNS/GLN  PROD*SS~\nMSG*27940006                  N1        999 - 998     001200050404              NO N1 ST SEGMENT WAS PRESENT         PROD*SS~\nSE*14*0001~\nGE*1*864010045~\nIEA*1*864010045~\n\n",
-			"settings":
-			{
-				"buffer_size": 5420,
-				"line_ending": "Unix",
-				"name": "grep \"\\*864\\*\" /sc/ap/mailbox/walmart/i.* | wmfix"
-			}
-		},
-		{
-			"contents": "urllib2\ncookielib\n\nurlparse\njinja2\nplatform\n\nurllib2 import HTTPCookieProcessor\nlxml import etree\nsuds.transport.https import HttpTransport\n\n\n\nurllib2\n\ncookielib",
-			"settings":
-			{
-				"buffer_size": 161,
-				"line_ending": "Unix",
-				"name": "urllib2"
-			}
-		},
-		{
-			"contents": "ready... https://buffalorock.sharepoint.com/ElectronicTransactions\ndegugging claims\n{'username': 'spadmin@buffalorock.com', 'password': 'SPadmin08', 'endpoint': u'https://buffalorock.sharepoint.com/_forms/default.aspx?wa=wsignin1.0'}\n23.07.2015 16:33:13 INFO: Starting new HTTPS connection (1): login.microsoftonline.com\n/usr/lib/python2.6/site-packages/requests-2.6.0-py2.6.egg/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.\n  InsecurePlatformWarning\nt=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAdf8gSsDBB6DwSdeKmpCVbhBS+PLMVZpXtsKRWSeeDJFwm9xZZKuTerzAnzplgqwKuhiTelpFBnwXjQCu7b8W4RfnQ0eBgTGTsJ2E2bilvk73+aYHi8j0x1nXZc/lpxtLSFdeWaqqXZt/6b0i/cdtPKrymCCrOs2gFpcz/zfZclLd1+udlbxVyGCIJHroKU/VOC/BG29zWwtq+6EyimMYnSdQDSklz8IV6vcliI0OhO3ZT65r2XApDOANa9ml5KrtR0cwxjpoIAz6N4XjvlxbNtUp6hh0x/x1ro6Vdw0REFXtJmhC9zH0XzH8HCPB+PlOtC5+TJ4/fCumiw5L7eBPUEDZgAACFvCPioISLqMuAFBz9USfGqh/qJSDWakYUzCsL+TrkL78VqLL5LZGSuYZq+iZftQd/i71fCMt6BjAlVKHHyex81KtsY58lJAvXTDSedIaD5LpDguGlmw3JZ9Q+vX/GiiFHCtH0BWQAUFnnEnX7Bw4c2oDWKvRCcVt4ffE49WznvvZETsS7dEvWcEDnUsBvPtAgXtvZBjM/w4iUmtxYffUlWOPXRJJkGUnQEqbpxG/p1dqp9i4m8k+sBRBowYt94UzOdr72hQQu+8FqsbOZvANEZ35pvytkN3hw/sUDGPmUSqpTQvpV73gUsbZ/cXTT8p/dbjtfh5OaeiDDCn24ojpprGTzSTBWyS5elVklS934x667RGIkKS1ht4IVe56EAnAWas66wgWjEwS3KZlX5bTjRjNB4iVCBd2tr+XnG4lIrsUHeOAuGgeOh4enRQkPHhLMnKvpd5W8H6e/hetAmovMSfpkS2NPQxVlo5+ViuDfMXKVvUNLuAny/GatmWX7PLPcAsthhZbYSEZQxtN3qMTu45NPwG/qcQqc1NsAh23lKMR9o+uaf9FPPGVk8/sgG/e3A8NEIaZPsYeV7nqeK0KaaSGBUC&p=\n23.07.2015 16:33:13 INFO: Starting new HTTPS connection (1): buffalorock.sharepoint.com\n/usr/lib/python2.6/site-packages/requests-2.6.0-py2.6.egg/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.\n  InsecurePlatformWarning\n<Response [200]>\n\n[('rtFa', '9sropgS18QD4eSqpu/oeib63NsUKJ3KV+B8o77Zk7BJlaSAaKbpfYMEu+CoSig/hxO3aNLRaY1yEX/ofwZwlgp1FdFwg9BXSzd1QN6TZA8f3h3LhE1IQ51kiQTOI3YZlYwjn7JXCFGlYFBE451FNUtPc4IA1okbstD3SyuPOlgw+xFzlqaB0EHLX2cO2sH7kA43gukAI0tMBYWWHrnR1ug5QCWE5jLC/vfeZ3/6fb2n91jO9LhfgjWNBq7rfjnDVVSpfwUMT8yBpsP0S7E/uSrPO+xUNayQPEbOhfE1qI0XrW2S9gGkzB5RiQll2fNm2PrbO/IMWKGOkB9zWdO6UZ2C9xGwudS3wElF+ojmMujyAINCE3rZgecMbUtADEnACIAAAAA=='), ('FedAuth', '77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+RmFsc2UsMGguZnxtZW1iZXJzaGlwfDEwMDNiZmZkOGM0ODEzMzFAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfHNwYWRtaW5AYnVmZmFsb3JvY2suY29tLDEzMDgyNTkyNzkzNzgyODQ4NCxGYWxzZSxlSnFlWm9Xb01aSkdNMTh3VVU1RnhvdHc3NkFvemNWWmMzeVdIaHQ1aTNDaTRDaitLWGxUSHdRSms2S2ZldmRSNEFIZ1V0THFzTFIrTWFsQVdDT0pHZUVMcW13NitYeFphOEZ2TXh1Tzh4cTY0SW4rcHdVcDVTMlRzTVBCakMyWDEwY2RJV29KUlJhYnpvR1NTY2tLT1ZGTDlJVjhpQzFMek5VQXRudENrN01DanpFR0R2bDEyVmRTT29IdDZLbGdWdEtKVWhGaGM0TlFZSENmNVUrcXV3NWg3QTA3RzIza2Ftamg4UHFiUXRPRGdaK2QzbVNPWmRiUTdtL2pEak54ekRUaDhuNDAvSzBwNXJVb29UR2ZQL1h5eTcwMExQM1RsZ0ZsV3MwZnZxbzZxQk8rd0YxYmFqeTBHODBib2JEMC9GeDZCZWpha1QyZzdjZlZ5MlBnY1E9PSxodHRwczovL2J1ZmZhbG9yb2NrLnNoYXJlcG9pbnQuY29tLzwvU1A+'), ('https%3A%2F%2Fbuffalorock%2Esharepoint%2Ecom%2FDiscovery', 'WorkspaceSiteName=QnVmZmFsbyBSb2NrIEhvbWU=&WorkspaceSiteUrl=aHR0cHM6Ly9idWZmYWxvcm9jay5zaGFyZXBvaW50LmNvbQ==&WorkspaceSiteTime=MjAxNS0wNy0yM1QyMTozMzoxNA==')]\n\n\n\n\n\n\n\n\n\n\nready... https://buffalorock.sharepoint.com/ElectronicTransactions\ndegugging claims\n{'username': 'spadmin@buffalorock.com', 'password': 'SPadmin08', 'endpoint': u'https://buffalorock.sharepoint.com/_forms/default.aspx?wa=wsignin1.0'}\n23.07.2015 16:35:28 INFO: Starting new HTTPS connection (1): login.microsoftonline.com\n\nt=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAeY5vrhPTGQRObsEzO2J1ACjccgxeMNuw94rGEEjGuABrBrxH/u4k+Hj8zv/e5lgVdJOnIny/hz/sNuz8FzdOTpe/kgFOtdVGy8NXvTbm1NUW5ysvjYMhDsdMWAalH8v42WKQzbVyeMWzdagLkOjbCx6rtuHadNe8RzzIybLn1/FWeo3DJ0hQ6EZ+PaKqs4OWa/WZaoZWBYdPxEH8+pwCohZemflCN8pCa7TYy46qpXsX+bDiVedSopzMoVDzgm5e4bnY16oV/367xpruGazcHj7gI1clHenaWvH205UdS9SKBlis7asNCu8QBgVNeeJRqECetYM8fo+2uGCqhCnm5QDZgAACITopntx8IzIuAGxsRvyfCYBhZ2pCb/5cqTVkDT6p1oqkDcpuu/gx1qWAKwjiOgZhjxGVIVTWBPU8GokgzmHauUEheRcgc9UJtTk8PpVJsZKXKMyrMsF1/5b+BnuozsT5C3u9GwO8HRa7M2fyVYL9XbPQ1dIsVl4EkiNH9bBxCwpmGj0+T8d7xwMWji2WJjra0I7NXEIvWrTjvE2YMe05yXtftSAa7d/2Rw1xeUYu8Waj22kKFSyIi5JmJJef2IwDJhTfeSFcgmu4h5zJsaCEYZI15J67PTiT/rZgAhEf7M710Li05o5+d9GfqA8CtxSJ4/AWubRx3BEncA88g7FehWV6voj/ACDXXrM4GWYMcyU/SwpHVNBL6K8Ef5RI/obfYGu7s7zqa+ugBTR6vw0NBIth8sglC9Eukf6KLWECv/aQ0eYvoItdMbg2bKnNIZH+dXgnHgsgiuHuCOlEVCSs5g1q22SxMe8dwomm8kf2ZkzI9rFpCO5TF07rW9kz1gTWbpJ4EOkJjLi6ZjEDEmUsRq0flOQpbGywYmzL6c+bH4otRd/GI0cENqwR3HRdhaDSTpU87GCD28+cX21ym+vYzvavhQC&p=\n\n23.07.2015 16:35:28 INFO: Starting new HTTPS connection (1): buffalorock.sharepoint.com\n\n\n\n\n\n\n\n  Cleanup    : cpp-4.4.7-4.el6.x86_64                                                                   398/414\n  Cleanup    : pixman-0.26.2-5.1.el6_5.x86_64                                                           399/414\n  Cleanup    : libtirpc-0.2.1-6.el6_5.2.x86_64                                                          400/414\n  Cleanup    : jasper-libs-1.900.1-15.el6_1.1.x86_64                                                    401/414\n  Cleanup    : rsync-3.0.6-9.el6_4.1.x86_64                                                             402/414\n  Cleanup    : libgfortran-4.4.7-4.el6.x86_64                                                           403/414\n  Cleanup    : unzip-6.0-1.el6.x86_64                                                                   404/414\n  Cleanup    : libvisual-0.4.0-9.1.el6.x86_64                                                           405/414\n  Cleanup    : 1:redhat-release-server-6Server-6.5.0.1.0.1.el6.x86_64                                   406/414\n  Cleanup    : ca-certificates-2014.1.98-65.0.el6_5.noarch                                              407/414\n  Cleanup    : libX11-common-1.5.0-4.el6.noarch                                                         408/414\n  Cleanup    : 12:dhcp-common-4.1.1-38.P1.0.1.el6.x86_64                                                409/414\n  Cleanup    : glibc-common-2.12-1.132.el6_5.4.x86_64                                                   410/414\n  Cleanup    : nss-softokn-freebl-3.14.3-12.el6_5.x86_64                                                411/414\n  Cleanup    : glibc-2.12-1.132.el6_5.4.x86_64                                                          412/414\n  Cleanup    : tzdata-2014g-1.el6.noarch                                                                413/414\n  Cleanup    : libgcc-4.4.7-4.el6.x86_64                                                                414/414\n                                                                                                               l[root@brsitrep mbtracker]# python manage.py quick\n\ntest\n\n\n1\n1\n1\n27930140\n2015-07-02 00:00:00\n{'deliver_date': \"between '02-Jun-2015' and '01-Aug-2015'\",\n 'invoice_no': 27930140L}\n1\nready... https://buffalorock.sharepoint.com/ElectronicTransactions\ndegugging claims\n{'username': 'spadmin@buffalorock.com', 'password': 'SPadmin08', 'endpoint': u'https://buffalorock.sharepoint.com/_forms/default.aspx?wa=wsignin1.0'}\n23.07.2015 16:47:09 INFO: Starting new HTTPS connection (1): login.microsoftonline.com\n\nt=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAS6mq9c8v0fsrY+FQjOfSHCl9l7YVUTUdlfb70ZS68pnQa6C/RKOQcgMiLAdvm5Jl7hDBFgtM+4I2+HZC4FFmkW+UsuoUmCrjz/aGhOL03ROPrLeG+QzJ5BlQfbAKOL7Xwee56jvDihhfTuKshAcmTZfPcKn9G4bydPy4I+JzMIZypW8onUH7b7X214orBZge2oLdaoZJ9fKr4w6MTq5Ksq393q9MukeegwL//GH+BhVX768oCWnoC9/se3GFFwaY487aW/iKd5wGUaPbbjR6gMEXbn9zDxTJtv5LxMrjJCfR1f6uiv+TjgcQtnzqsndfYKo54M8xCze7RHPqHTNKlIDZgAACJWshtO4XUBguAH9IdRJc7Qq1JM71K89Tur2NlNJIbAfxN5yxU6Gt9nj7XFgHHvukI9pUL5o7qsUaFJAO3aZe1uUfVe00jK4X8yPnfzlK7zblpcEYmKhorW5elZBFpq0/rzFc4MXBp+XP1f8Cn1SywsF+ewXPWY+zOoz7zgtDtuucB6OCYHE3ZuJyfhzh/P/htEzrfmjsu87Yy3rkIn+fYrkpF/AWBeKHig3rpJ4VlkvFsIO8MHXDso6JrZ+fWsk+tpxSAbYxKWBSyf+KcbJbvgij+\n\n\n\n\n\n\n\nt=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAdf8gSsDBB6DwSdeKmpCVbhBS+PLMVZpXtsKRWSeeDJFwm9xZZKuTerzAnzplgqwKuhiTelpFBnwXjQCu7b8W4RfnQ0eBgTGTsJ2E2bilvk73+aYHi8j0x1nXZc/lpxtLSFdeWaqqXZt/6b0i/cdtPKrymCCrOs2gFpcz/zfZclLd1+udlbxVyGCIJHroKU/VOC/BG29zWwtq+6EyimMYnSdQDSklz8IV6vcliI0OhO3ZT65r2XApDOANa9ml5KrtR0cwxjpoIAz6N4XjvlxbNtUp6hh0x/x1ro6Vdw0REFXtJmhC9zH0XzH8HCPB+PlOtC5+TJ4/fCumiw5L7eBPUEDZgAACFvCPioISLqMuAFBz9USfGqh/qJSDWakYUzCsL+TrkL78VqLL5LZGSuYZq+iZftQd/i71fCMt6BjAlVKHHyex81KtsY58lJAvXTDSedIaD5LpDguGlmw3JZ9Q+vX/GiiFHCtH0BWQAUFnnEnX7Bw4c2oDWKvRCcVt4ffE49WznvvZETsS7dEvWcEDnUsBvPtAgXtvZBjM/w4iUmtxYffUlWOPXRJJkGUnQEqbpxG/p1dqp9i4m8k+sBRBowYt94UzOdr72hQQu+8FqsbOZvANEZ35pvytkN3hw/sUDGPmUSqpTQvpV73gUsbZ/cXTT8p/dbjtfh5OaeiDDCn24ojpprGTzSTBWyS5elVklS934x667RGIkKS1ht4IVe56EAnAWas66wgWjEwS3KZlX5bTjRjNB4iVCBd2tr+XnG4lIrsUHeOAuGgeOh4enRQkPHhLMnKvpd5W8H6e/hetAmovMSfpkS2NPQxVlo5+ViuDfMXKVvUNLuAny/GatmWX7PLPcAsthhZbYSEZQxtN3qMTu45NPwG/qcQqc1NsAh23lKMR9o+uaf9FPPGVk8/sgG/e3A8NEIaZPsYeV7nqeK0KaaSGBUC&p=\n\n\n\n\n\nhttp --follow post \\\n\"https://login.microsoftonline.com/login.srf?wa=wsignin1%2E0&amp;rpsnv=4&amp;ct=1437688423&amp;rver=6%2E1%2E6206%2E0&amp;wp=MBI&amp;wreply=https%3A%2F%2Fbuffalorock%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx%3Fapr%3D1&amp;lc=1033&amp;id=500046&amp;t=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAdf8gSsDBB6DwSdeKmpCVbhBS+PLMVZpXtsKRWSeeDJFwm9xZZKuTerzAnzplgqwKuhiTelpFBnwXjQCu7b8W4RfnQ0eBgTGTsJ2E2bilvk73+aYHi8j0x1nXZc/lpxtLSFdeWaqqXZt/6b0i/cdtPKrymCCrOs2gFpcz/zfZclLd1+udlbxVyGCIJHroKU/VOC/BG29zWwtq+6EyimMYnSdQDSklz8IV6vcliI0OhO3ZT65r2XApDOANa9ml5KrtR0cwxjpoIAz6N4XjvlxbNtUp6hh0x/x1ro6Vdw0REFXtJmhC9zH0XzH8HCPB+PlOtC5+TJ4/fCumiw5L7eBPUEDZgAACFvCPioISLqMuAFBz9USfGqh/qJSDWakYUzCsL+TrkL78VqLL5LZGSuYZq+iZftQd/i71fCMt6BjAlVKHHyex81KtsY58lJAvXTDSedIaD5LpDguGlmw3JZ9Q+vX/GiiFHCtH0BWQAUFnnEnX7Bw4c2oDWKvRCcVt4ffE49WznvvZETsS7dEvWcEDnUsBvPtAgXtvZBjM/w4iUmtxYffUlWOPXRJJkGUnQEqbpxG/p1dqp9i4m8k+sBRBowYt94UzOdr72hQQu+8FqsbOZvANEZ35pvytkN3hw/sUDGPmUSqpTQvpV73gUsbZ/cXTT8p/dbjtfh5OaeiDDCn24ojpprGTzSTBWyS5elVklS934x667RGIkKS1ht4IVe56EAnAWas66wgWjEwS3KZlX5bTjRjNB4iVCBd2tr+XnG4lIrsUHeOAuGgeOh4enRQkPHhLMnKvpd5W8H6e/hetAmovMSfpkS2NPQxVlo5+ViuDfMXKVvUNLuAny/GatmWX7PLPcAsthhZbYSEZQxtN3qMTu45NPwG/qcQqc1NsAh23lKMR9o+uaf9FPPGVk8/sgG/e3A8NEIaZPsYeV7nqeK0KaaSGBUC&p=\"\n\n\n\n\n\n\npython-ipython.noarch                         0.13.2-6.el6                               epel\npython-ipython-console.noarch                 0.13.2-6.el6                               epel\npython-ipython-gui.noarch                     0.13.2-6.el6                               epel\npython-ipython-notebook.noarch                0.13.2-6.el6                               epel\npython-pip.noarch                             7.1.0-1.el6                                epel\npython-tornado.noarch                         2.2.1-7.el6                                epel\npython-urlgrabber.noarch                      3.9.1-9.0.1.el6                            public_ol6_latest\npython-zmq.x86_64                             14.3.1-1.el6                               epel\nrpm-python.x86_64                             4.8.0-38.el6_6                             public_ol6_latest\nopenldap.x86_64                               2.4.39-8.el6                               public_ol6_latest\nopenssh.x86_64                                5.3p1-104.el6_6.1                          public_ol6_latest\nopenssh-clients.x86_64                        5.3p1-104.el6_6.1                          public_ol6_latest\nopenssh-server.x86_64                         5.3p1-104.el6_6.1                          public_ol6_latest\nopenssl.x86_64                                1.0.1e-30.el6_6.11                         public_ol6_latest\nopenssl-devel.x86_64                          1.0.1e-30.el6_6.11                         public_ol6_latest\n\n\n\n\n\n\n\n\nfrom suds.transport import Transport\n\nt = Transport()\nt.options['headers'] = \n\n\n\n            Definition('headers', dict, {}),\n            Definition('username', basestring, None),\n            Definition('password', basestring, None),\n\n\nTransport",
-			"settings":
-			{
-				"buffer_size": 12279,
-				"line_ending": "Unix",
-				"name": "ready... https://buffalorock.sharepoint.com/Electr"
-			}
-		},
-		{
-			"contents": "at.x86_64                                     3.1.10-44.el6_6.2                          public_ol6_latest\naudit.x86_64                                  2.3.7-5.el6                                public_ol6_latest\naudit-libs.x86_64                             2.3.7-5.el6                                public_ol6_latest\nauthconfig.x86_64                             6.1.12-19.el6                              public_ol6_latest\navahi-libs.x86_64                             0.6.25-15.el6                              public_ol6_latest\nbfa-firmware.noarch                           3.2.23.0-2.el6                             public_ol6_latest\nbinutils.x86_64                               2.20.51.0.2-5.42.el6                       public_ol6_latest\nca-certificates.noarch                        2015.2.4-65.0.1.el6_6                      public_ol6_latest\ncairo.x86_64                                  1.8.8-6.el6_6                              public_ol6_latest\ncoreutils.x86_64                              8.4-37.0.1.el6                             public_ol6_latest\ncoreutils-libs.x86_64                         8.4-37.0.1.el6                             public_ol6_latest\ncpp.x86_64                                    4.4.7-11.el6                               public_ol6_latest\ncups.x86_64                                   1:1.4.2-67.el6_6.1                         public_ol6_latest\ncups-libs.x86_64                              1:1.4.2-67.el6_6.1                         public_ol6_latest\ncurl.x86_64                                   7.19.7-40.el6_6.4                          public_ol6_latest\ncyrus-sasl.x86_64                             2.1.23-15.el6_6.2                          public_ol6_latest\ncyrus-sasl-lib.x86_64                         2.1.23-15.el6_6.2                          public_ol6_latest\ndb4.x86_64                                    4.7.25-19.el6_6                            public_ol6_latest\ndb4-cxx.x86_64                                4.7.25-19.el6_6                            public_ol6_latest\ndb4-devel.x86_64                              4.7.25-19.el6_6                            public_ol6_latest\ndb4-utils.x86_64                              4.7.25-19.el6_6                            public_ol6_latest\ndbus.x86_64                                   1:1.2.24-8.0.1.el6_6                       public_ol6_latest\ndbus-libs.x86_64                              1:1.2.24-8.0.1.el6_6                       public_ol6_latest\ndevice-mapper.x86_64                          1.02.90-2.el6_6.3                          public_ol6_latest\ndevice-mapper-event.x86_64                    1.02.90-2.el6_6.3                          public_ol6_latest\ndevice-mapper-event-libs.x86_64               1.02.90-2.el6_6.3                          public_ol6_latest\ndevice-mapper-libs.x86_64                     1.02.90-2.el6_6.3                          public_ol6_latest\ndevice-mapper-multipath.x86_64                0.4.9-80.0.1.el6_6.3                       public_ol6_latest\ndevice-mapper-multipath-libs.x86_64           0.4.9-80.0.1.el6_6.3                       public_ol6_latest\ndevice-mapper-persistent-data.x86_64          0.3.2-1.el6                                public_ol6_latest\ndhclient.x86_64                               12:4.1.1-43.P1.0.1.el6_6.1                 public_ol6_latest\ndhcp-common.x86_64                            12:4.1.1-43.P1.0.1.el6_6.1                 public_ol6_latest\ndracut.noarch                                 004-356.0.2.el6_6.3                        public_ol6_latest\ndracut-kernel.noarch                          004-356.0.2.el6_6.3                        public_ol6_latest\nefibootmgr.x86_64                             0.5.4-12.el6                               public_ol6_latest\nelfutils-libelf.x86_64                        0.158-3.2.el6                              public_ol6_latest\nethtool.x86_64                                2:3.5-5.el6                                public_ol6_latest\nfile.x86_64                                   5.04-21.el6                                public_ol6_latest\nfile-libs.x86_64                              5.04-21.el6                                public_ol6_latest\nfontconfig.x86_64                             2.8.0-5.el6                                public_ol6_latest\nfreetype.x86_64                               2.3.11-15.el6_6.1                          public_ol6_latest\ngcc.x86_64                                    4.4.7-11.el6                               public_ol6_latest\ngettext.x86_64                                0.17-18.el6                                public_ol6_latest\nghostscript-fonts.noarch                      5.50-23.2.el6                              public_ol6_latest\nglib2.x86_64                                  2.28.8-4.el6                               public_ol6_latest\nglibc.x86_64                                  2.12-1.149.el6_6.9                         public_ol6_latest\nglibc-common.x86_64                           2.12-1.149.el6_6.9                         public_ol6_latest\nglibc-devel.x86_64                            2.12-1.149.el6_6.9                         public_ol6_latest\nglibc-headers.x86_64                          2.12-1.149.el6_6.9                         public_ol6_latest\ngnupg2.x86_64                                 2.0.14-8.el6                               public_ol6_latest\ngrep.x86_64                                   2.6.3-6.el6                                public_ol6_latest\ngrub.x86_64                                   1:0.97-93.0.1.el6                          public_ol6_latest\ngrubby.x86_64                                 7.0.15-7.0.1.el6                           public_ol6_latest\ngtk2.x86_64                                   2.24.23-6.el6                              public_ol6_latest\ngzip.x86_64                                   1.3.12-22.el6                              public_ol6_latest\nhttpd.x86_64                                  2.2.15-39.0.1.el6                          public_ol6_latest\nhttpd-tools.x86_64                            2.2.15-39.0.1.el6                          public_ol6_latest\nhwdata.noarch                                 0.233-11.1.el6                             public_ol6_latest\ninitscripts.x86_64                            9.03.46-1.0.4.el6_6.1                      public_ol6_latest\niproute.x86_64                                2.6.32-33.el6_6                            public_ol6_latest\niptables.x86_64                               1.4.7-14.0.1.el6                           public_ol6_latest\niptables-ipv6.x86_64                          1.4.7-14.0.1.el6                           public_ol6_latest\niscsi-initiator-utils.x86_64                  6.2.0.873-13.0.1.el6                       public_ol6_latest\njasper-libs.x86_64                            1.900.1-16.el6_6.3                         public_ol6_latest\nkernel.x86_64                                 2.6.32-504.30.3.el6                        public_ol6_latest\nkernel-firmware.noarch                        2.6.32-504.30.3.el6                        public_ol6_latest\nkernel-uek.x86_64                             3.8.13-68.3.4.el6uek                       public_ol6_UEKR3_latest\nkernel-uek-firmware.noarch                    3.8.13-68.3.4.el6uek                       public_ol6_UEKR3_latest\nkernel-uek-headers.x86_64                     2:1-3.el6                                  public_ol6_latest\nkpartx.x86_64                                 0.4.9-80.0.1.el6_6.3                       public_ol6_latest\nless.x86_64                                   436-13.el6                                 public_ol6_latest\nlibX11.x86_64                                 1.6.0-2.2.el6                              public_ol6_latest\nlibX11-common.noarch                          1.6.0-2.2.el6                              public_ol6_latest\nlibXcursor.x86_64                             1.1.14-2.1.el6                             public_ol6_latest\nlibXext.x86_64                                1.3.2-2.1.el6                              public_ol6_latest\nlibXfixes.x86_64                              5.0.1-2.1.el6                              public_ol6_latest\nlibXfont.x86_64                               1.4.5-4.el6_6                              public_ol6_latest\nlibXi.x86_64                                  1.7.2-2.2.el6                              public_ol6_latest\nlibXinerama.x86_64                            1.1.3-2.1.el6                              public_ol6_latest\nlibXrandr.x86_64                              1.4.1-2.1.el6                              public_ol6_latest\nlibXrender.x86_64                             0.9.8-2.1.el6                              public_ol6_latest\nlibXt.x86_64                                  1.1.4-6.1.el6                              public_ol6_latest\nlibXtst.x86_64                                1.2.2-2.1.el6                              public_ol6_latest\nlibXv.x86_64                                  1.0.9-2.1.el6                              public_ol6_latest\nlibXxf86vm.x86_64                             1.1.3-2.1.el6                              public_ol6_latest\nlibblkid.x86_64                               2.17.2-12.18.0.1.el6                       public_ol6_latest\nlibcurl.x86_64                                7.19.7-40.el6_6.4                          public_ol6_latest\nlibdrm.x86_64                                 2.4.52-4.el6                               public_ol6_latest\nlibgcc.x86_64                                 4.4.7-11.el6                               public_ol6_latest\nlibgfortran.x86_64                            4.4.7-11.el6                               public_ol6_latest\nlibgomp.x86_64                                4.4.7-11.el6                               public_ol6_latest\nlibgudev1.x86_64                              147-2.57.0.2.el6                           public_ol6_latest\nlibpciaccess.x86_64                           0.13.3-0.1.el6                             public_ol6_latest\nlibssh2.x86_64                                1.4.2-1.el6_6.1                            public_ol6_latest\nlibstdc++.x86_64                              4.4.7-11.el6                               public_ol6_latest\nlibtirpc.x86_64                               0.2.1-10.el6                               public_ol6_latest\nlibudev.x86_64                                147-2.57.0.2.el6                           public_ol6_latest\nlibuuid.x86_64                                2.17.2-12.18.0.1.el6                       public_ol6_latest\nlibvisual.x86_64                              0.4.0-10.el6                               public_ol6_latest\nlibxcb.x86_64                                 1.9.1-2.el6                                public_ol6_latest\nlvm2.x86_64                                   2.02.111-2.el6_6.3                         public_ol6_latest\nlvm2-libs.x86_64                              2.02.111-2.el6_6.3                         public_ol6_latest\nmailx.x86_64                                  12.4-8.el6_6                               public_ol6_latest\nmesa-dri-drivers.x86_64                       10.1.2-2.el6                               public_ol6_latest\nmesa-dri-filesystem.x86_64                    10.1.2-2.el6                               public_ol6_latest\nmesa-libGL.x86_64                             10.1.2-2.el6                               public_ol6_latest\nmesa-libGLU.x86_64                            10.1.2-2.el6                               public_ol6_latest\nmesa-private-llvm.x86_64                      3.4-3.el6                                  public_ol6_latest\nmod_ssl.x86_64                                1:2.2.15-39.0.1.el6                        public_ol6_latest\nmodule-init-tools.x86_64                      3.9-24.0.1.el6                             public_ol6_latest\nmongodb.x86_64                                2.4.14-1.el6                               epel\nmysql.x86_64                                  5.1.73-5.el6_6                             public_ol6_latest\nmysql-devel.x86_64                            5.1.73-5.el6_6                             public_ol6_latest\nmysql-libs.x86_64                             5.1.73-5.el6_6                             public_ol6_latest\nnet-snmp.x86_64                               1:5.5-50.0.1.el6_6.1                       public_ol6_latest\nnet-snmp-libs.x86_64                          1:5.5-50.0.1.el6_6.1                       public_ol6_latest\nnfs-utils.x86_64                              1:1.2.3-54.el6                             public_ol6_latest\nnfs-utils-lib.x86_64                          1.1.5-9.el6_6                              public_ol6_latest\nnspr.x86_64                                   4.10.8-1.el6_6                             public_ol6_latest\nnss.x86_64                                    3.19.1-3.0.1.el6_6                         public_ol6_latest\nnss-softokn.x86_64                            3.14.3-22.el6_6                            public_ol6_latest\nnss-softokn-freebl.x86_64                     3.14.3-22.el6_6                            public_ol6_latest\nnss-sysinit.x86_64                            3.19.1-3.0.1.el6_6                         public_ol6_latest\nnss-tools.x86_64                              3.19.1-3.0.1.el6_6                         public_ol6_latest\nnss-util.x86_64                               3.19.1-1.el6_6                             public_ol6_latest\nntp.x86_64                                    4.2.6p5-3.el6_6                            public_ol6_latest\nntpdate.x86_64                                4.2.6p5-3.el6_6                            public_ol6_latest\nopenldap.x86_64                               2.4.39-8.el6                               public_ol6_latest\nopenssh.x86_64                                5.3p1-104.el6_6.1                          public_ol6_latest\nopenssh-clients.x86_64                        5.3p1-104.el6_6.1                          public_ol6_latest\nopenssh-server.x86_64                         5.3p1-104.el6_6.1                          public_ol6_latest\nopenssl.x86_64                                1.0.1e-30.el6_6.11                         public_ol6_latest\nopenssl-devel.x86_64                          1.0.1e-30.el6_6.11                         public_ol6_latest\noracle-logos.noarch                           60.0.14-1.0.2.el6                          public_ol6_latest\noraclelinux-release.x86_64                    6:6Server-6.0.2                            public_ol6_latest\noraclelinux-release-notes.x86_64              6Server-14                                 public_ol6_latest\npam.x86_64                                    1.1.1-20.el6                               public_ol6_latest\npango.x86_64                                  1.28.1-10.0.1.el6                          public_ol6_latest\npciutils-libs.x86_64                          3.1.10-4.el6                               public_ol6_latest\nperl.x86_64                                   4:5.10.1-136.el6_6.1                       public_ol6_latest\nperl-CGI.x86_64                               3.51-136.el6_6.1                           public_ol6_latest\nperl-ExtUtils-MakeMaker.x86_64                6.55-136.el6_6.1                           public_ol6_latest\nperl-ExtUtils-ParseXS.x86_64                  1:2.2003.0-136.el6_6.1                     public_ol6_latest\nperl-Module-Pluggable.x86_64                  1:3.90-136.el6_6.1                         public_ol6_latest\nperl-Pod-Escapes.x86_64                       1:1.04-136.el6_6.1                         public_ol6_latest\nperl-Pod-Simple.x86_64                        1:3.13-136.el6_6.1                         public_ol6_latest\nperl-Test-Harness.x86_64                      3.17-136.el6_6.1                           public_ol6_latest\nperl-Test-Simple.x86_64                       0.92-136.el6_6.1                           public_ol6_latest\nperl-devel.x86_64                             4:5.10.1-136.el6_6.1                       public_ol6_latest\nperl-libs.x86_64                              4:5.10.1-136.el6_6.1                       public_ol6_latest\nperl-version.x86_64                           3:0.77-136.el6_6.1                         public_ol6_latest\nphp.x86_64                                    5.3.3-46.el6_6                             public_ol6_latest\nphp-cli.x86_64                                5.3.3-46.el6_6                             public_ol6_latest\nphp-common.x86_64                             5.3.3-46.el6_6                             public_ol6_latest\nphp-devel.x86_64                              5.3.3-46.el6_6                             public_ol6_latest\npixman.x86_64                                 0.32.4-4.el6                               public_ol6_latest\npolicycoreutils.x86_64                        2.0.83-19.47.0.1.el6_6.1                   public_ol6_latest\npoppler.x86_64                                0.12.4-4.el6_6.1                           public_ol6_latest\npoppler-utils.x86_64                          0.12.4-4.el6_6.1                           public_ol6_latest\npostgresql.x86_64                             8.4.20-3.el6_6                             public_ol6_latest\npostgresql-devel.x86_64                       8.4.20-3.el6_6                             public_ol6_latest\npostgresql-libs.x86_64                        8.4.20-3.el6_6                             public_ol6_latest\nprocps.x86_64                                 3.2.8-30.0.1.el6                           public_ol6_latest\npython-ipython.noarch                         0.13.2-6.el6                               epel\npython-ipython-console.noarch                 0.13.2-6.el6                               epel\npython-ipython-gui.noarch                     0.13.2-6.el6                               epel\npython-ipython-notebook.noarch                0.13.2-6.el6                               epel\npython-pip.noarch                             7.1.0-1.el6                                epel\npython-tornado.noarch                         2.2.1-7.el6                                epel\npython-urlgrabber.noarch                      3.9.1-9.0.1.el6                            public_ol6_latest\npython-zmq.x86_64                             14.3.1-1.el6                               epel\nql2400-firmware.noarch                        7.04.00-1.0.1.el6                          public_ol6_latest\nql2500-firmware.noarch                        7.05.00-1.0.1.el6                          public_ol6_latest\nredhat-release-server.x86_64                  1:6Server-6.6.0.2.0.1.el6                  public_ol6_latest\nrhn-check.noarch                              1.0.0.1-18.0.2.el6                         public_ol6_latest\nrhn-client-tools.noarch                       1.0.0.1-18.0.2.el6                         public_ol6_latest\nrhn-setup.noarch                              1.0.0.1-18.0.2.el6                         public_ol6_latest\nrpm.x86_64                                    4.8.0-38.el6_6                             public_ol6_latest\nrpm-libs.x86_64                               4.8.0-38.el6_6                             public_ol6_latest\nrpm-python.x86_64                             4.8.0-38.el6_6                             public_ol6_latest\nrsync.x86_64                                  3.0.6-12.el6                               public_ol6_latest\nrsyslog.x86_64                                5.8.10-10.0.1.el6_6                        public_ol6_latest\nsamba-common.x86_64                           3.6.23-14.0.1.el6_6                        public_ol6_latest\nsamba-winbind.x86_64                          3.6.23-14.0.1.el6_6                        public_ol6_latest\nsamba-winbind-clients.x86_64                  3.6.23-14.0.1.el6_6                        public_ol6_latest\nselinux-policy.noarch                         3.7.19-260.0.1.el6_6.5                     public_ol6_latest\nselinux-policy-targeted.noarch                3.7.19-260.0.1.el6_6.5                     public_ol6_latest\nshadow-utils.x86_64                           2:4.1.4.2-19.el6_6.1                       public_ol6_latest\nshared-mime-info.x86_64                       0.70-6.el6                                 public_ol6_latest\nsudo.x86_64                                   1.8.6p3-15.el6                             public_ol6_latest\nsystem-config-firewall-base.noarch            1.2.27-7.2.el6_6                           public_ol6_latest\ntar.x86_64                                    2:1.23-11.0.1.el6                          public_ol6_latest\ntzdata.noarch                                 2015e-1.el6                                public_ol6_latest\nudev.x86_64                                   147-2.57.0.2.el6                           public_ol6_latest\nunzip.x86_64                                  6.0-2.el6_6                                public_ol6_latest\nutil-linux-ng.x86_64                          2.17.2-12.18.0.1.el6                       public_ol6_latest\nvsftpd.x86_64                                 2.2.2-13.el6_6.1                           public_ol6_latest\nxml-common.noarch                             0.6.3-33.el6                               public_ol6_latest\nxorg-x11-drv-ati-firmware.noarch              7.3.99-2.el6                               public_ol6_latest\nxz.x86_64                                     4.999.9-0.5.beta.20091007git.el6           public_ol6_latest\nxz-libs.x86_64                                4.999.9-0.5.beta.20091007git.el6           public_ol6_latest\nxz-lzma-compat.x86_64                         4.999.9-0.5.beta.20091007git.el6           public_ol6_latest\nyum.noarch                                    3.2.29-60.0.1.el6                          public_ol6_latest\nyum-rhn-plugin.noarch                         0.9.1-52.3.0.1.el6_6                       public_ol6_latest\nzeromq3.x86_64                                3.2.5-1.el6                                epel\n",
-			"settings":
-			{
-				"buffer_size": 21830,
-				"line_ending": "Unix",
-				"name": "at.x86_64                                     3.1."
-			}
-		},
-		{
-			"contents": "MSG*INVOICE NUMBER    PO NUMBER     ID        POS - REF      DATA                     COMMENTS*SS~\nMSG*40819679   DUPLICATE      BIG       001 - 471                               INVALID SAMS PO NUMBER               PROD*SS~\nMSG*27932731                  N1        999 - 998     001200001420              NO N1 ST SEGMENT WAS PRESENT         PROD*SS~\n\n40819679   DUPLICATE      BIG       001 - 471                               INVALID SAMS PO NUMBER               PROD*SS~\n27932731                  N1        999 - 998     001200001420              NO N1 ST SEGMENT WAS PRESENT         PROD*SS~\n\n\n0:11\n11:26\n\n\n\nPO NUMBER IS MISSING~D & B / GLN NUMBER IS MISSING~INVALID STORE # PRESENT ON DUNS/GLN~NO N1 ST SEGMENT WAS PRESENT\n",
-			"settings":
-			{
-				"buffer_size": 728,
-				"line_ending": "Unix",
-				"name": "MSG*INVOICE NUMBER    PO NUMBER     ID        POS"
-			}
-		},
-		{
-			"contents": "/sc/ap/mailbox/walmart/i.wmar.150702005002",
-			"settings":
-			{
-				"buffer_size": 42,
-				"line_ending": "Unix",
-				"name": "/sc/ap/mailbox/walmart/i.wmar.150702005002"
-			}
-		},
-		{
-			"contents": "\nsaml=\"<s:Envelope xmlns:s=\\\"http://www.w3.org/2003/05/soap-envelope\\\" xmlns:a=\\\"http://www.w3.org/2005/08/addressing\\\" xmlns:u=\\\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\\\"><s:Header><a:Action s:mustUnderstand=\\\"1\\\">http://schemas.xmlsoap.org/ws/2005/02/trust/RST/Issue</a:Action><a:ReplyTo><a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address></a:ReplyTo><a:To s:mustUnderstand=\\\"1\\\">https://login.microsoftonline.com/extSTS.srf</a:To><o:Security s:mustUnderstand=\\\"1\\\" xmlns:o=\\\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\\\"><o:UsernameToken><o:Username>spadmin@buffalorock.com</o:Username><o:Password>SPadmin08</o:Password></o:UsernameToken></o:Security></s:Header><s:Body><t:RequestSecurityToken xmlns:t=\\\"http://schemas.xmlsoap.org/ws/2005/02/trust\\\"><wsp:AppliesTo xmlns:wsp=\\\"http://schemas.xmlsoap.org/ws/2004/09/policy\\\"><a:EndpointReference><a:Address>https://buffalorock.sharepoint.com</a:Address></a:EndpointReference></wsp:AppliesTo><t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType><t:RequestType>http://schemas.xmlsoap.org/ws/2005/02/trust/Issue</t:RequestType><t:TokenType>urn:oasis:names:tc:SAML:1.0:assertion</t:TokenType></t:RequestSecurityToken></s:Body></s:Envelope>\"\n\n\nsaml=\"<s:Envelope xmlns:s=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:a=\"http://www.w3.org/2005/08/addressing\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"><s:Header><a:Action s:mustUnderstand=\"1\">http://schemas.xmlsoap.org/ws/2005/02/trust/RST/Issue</a:Action><a:ReplyTo><a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address></a:ReplyTo><a:To s:mustUnderstand=\"1\">https://login.microsoftonline.com/extSTS.srf</a:To><o:Security s:mustUnderstand=\"1\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><o:UsernameToken><o:Username>spadmin@buffalorock.com</o:Username><o:Password>SPadmin08</o:Password></o:UsernameToken></o:Security></s:Header><s:Body><t:RequestSecurityToken xmlns:t=\"http://schemas.xmlsoap.org/ws/2005/02/trust\"><wsp:AppliesTo xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2004/09/policy\"><a:EndpointReference><a:Address>https://buffalorock.sharepoint.com</a:Address></a:EndpointReference></wsp:AppliesTo><t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType><t:RequestType>http://schemas.xmlsoap.org/ws/2005/02/trust/Issue</t:RequestType><t:TokenType>urn:oasis:names:tc:SAML:1.0:assertion</t:TokenType></t:RequestSecurityToken></s:Body></s:Envelope>\"\n\n\n\ncurl -X POST \\\n-H \"User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\" \\\nhttps://login.microsoftonline.com/extSTS.srf \\\n-d \"$saml\"\n\n\n\n\n\n\n\n\n### working up to this point ###\n\ntoker=\"\"\n\n\n\n\ncurl -X POST \\\n-H \"User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\" \\\nhttps://buffalorock.sharepoint.com/_forms/default.aspx?wa=wsignin1.0 \\\n-d \"$toker\"\n\n\n\n--headers \n\n\n\nhttp -f --verbose POST https://login.microsoftonline.com/extSTS.srf \\\nbody=\"$content\"\nUser-Agent:\"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\" body=\"$content\"\n\n\n\ncurl -X POST -H \"User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\" https://login.microsoftonline.com/extSTS.srf -d \"$saml\"\n\n\nContent-Type:application/x-www-form-urlencoded\n\n\n--verbose\n\nhttp --verbose POST https://login.microsoftonline.com/extSTS.srf  Content-Type:application/application/soap+xml body=\"$saml\"\n\n\n\n\necho $saml | http --verbose POST https://login.microsoftonline.com/extSTS.srf\n\n",
-			"settings":
-			{
-				"buffer_size": 3760,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "[root@brops mbtracker]# curl -vvv -X POST -H \"User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\" https://login.microsoftonline.com/extSTS.srf -d \"$saml\"\n* About to connect() to login.microsoftonline.com port 443 (#0)\n*   Trying 168.61.38.105... connected\n* Connected to login.microsoftonline.com (168.61.38.105) port 443 (#0)\n* Initializing NSS with certpath: sql:/etc/pki/nssdb\n*   CAfile: /etc/pki/tls/certs/ca-bundle.crt\n  CApath: none\n* SSL connection using TLS_RSA_WITH_AES_256_CBC_SHA\n* Server certificate:\n*       subject: CN=login.microsoftonline.com,OU=AAD-OrgID,O=Microsoft Corporation,STREET=One Microsoft Way,L=Redmond,ST=Washington,postalCode=98052,C=US,serialNumber=600413485,businessCategory=Private Organization,incorporationState=Washington,incorporationCountry=US\n*       start date: Feb 02 00:00:00 2015 GMT\n*       expire date: Feb 01 23:59:59 2017 GMT\n*       common name: login.microsoftonline.com\n*       issuer: CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US\n> POST /extSTS.srf HTTP/1.1\n> Host: login.microsoftonline.com\n> Accept: */*\n> User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\n> Content-Length: 1288\n> Content-Type: application/x-www-form-urlencoded\n> Expect: 100-continue\n>\n< HTTP/1.1 100 Continue\n< HTTP/1.1 200 OK\n< Cache-Control: no-cache\n< Pragma: no-cache\n< Content-Type: application/soap+xml; charset=utf-8\n< Expires: -1\n< Server: Microsoft-IIS/8.5\n< X-XSS-Protection: 0\n< Strict-Transport-Security: max-age=31536000\n< PPServer: PPV: 30 H: CH1IDOALGN46 V: 0\n< P3P: CP=\"DSP CUR OTPi IND OTRi ONL FIN\"\n< Set-Cookie: SASession=; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=login.microsoftonline.com;secure= ;path=/;HTTPOnly= ;version=1\n< Set-Cookie: x-ms-gateway-slice=orgidprod; path=/; secure; HttpOnly\n< Set-Cookie: stsservicecookie=orgidprod; path=/; secure; HttpOnly\n< X-Powered-By: ASP.NET\n< Date: Thu, 23 Jul 2015 23:19:06 GMT\n< Content-Length: 3727\n\n\ncurl -v -X POST https://login.microsoftonline.com/extSTS.srf -d \"$saml\"\n\n\n\nContent-Type: application/soap+xml; charset=utf-8\n\n\nhttp -f --verbose POST https://login.microsoftonline.com/extSTS.srf Content-Type:\"application/soap+xml; charset=utf-8\" body=$content\n\nUser-Agent:\"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.11) Gecko/20101012 Firefox/3.6.11\" body=\"$content\"\n\n\nContent-Type:application/x-www-form-urlencoded",
-			"settings":
-			{
-				"buffer_size": 2494,
-				"line_ending": "Unix",
-				"name": "[root@brops mbtracker]# curl -vvv -X POST -H \"User"
-			}
-		},
-		{
-			"contents": "content='<s:Envelope xmlns:s=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:a=\"http://www.w3.org/2005/08/addressing\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"><s:Header><a:Action s:mustUnderstand=\"1\">http://schemas.xmlsoap.org/ws/2005/02/trust/RST/Issue</a:Action><a:ReplyTo><a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address></a:ReplyTo><a:To s:mustUnderstand=\"1\">https://login.microsoftonline.com/extSTS.srf</a:To><o:Security s:mustUnderstand=\"1\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><o:UsernameToken><o:Username>spadmin@buffalorock.com</o:Username><o:Password>SPadmin08</o:Password></o:UsernameToken></o:Security></s:Header><s:Body><t:RequestSecurityToken xmlns:t=\"http://schemas.xmlsoap.org/ws/2005/02/trust\"><wsp:AppliesTo xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2004/09/policy\"><a:EndpointReference><a:Address>https://buffalorock.sharepoint.com</a:Address></a:EndpointReference></wsp:AppliesTo><t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType><t:RequestType>http://schemas.xmlsoap.org/ws/2005/02/trust/Issue</t:RequestType><t:TokenType>urn:oasis:names:tc:SAML:1.0:assertion</t:TokenType></t:RequestSecurityToken></s:Body></s:Envelope>'\n\n\n<s: Envelope xmlns:s=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:a=\"http://www.w3.org/2005/08/addressing\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"><s:Header><a:Action s:mustUnderstand=\"1\">http://schemas.xmlsoap.org/ws/2005/02/trust/RST/Issue</a:Action><a:ReplyTo><a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address></a:ReplyTo><a:To s:mustUnderstand=\"1\">https://login.microsoftonline.com/extSTS.srf</a:To><o:Security s:mustUnderstand=\"1\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><o:UsernameToken><o:Username>[username]</o:Username><o:Password>[password]</o:Password></o:UsernameToken></o:Security></s:Header><s:Body><t:RequestSecurityToken xmlns:t=\"http://schemas.xmlsoap.org/ws/2005/02/trust\"><wsp:AppliesTo xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2004/09/policy\"><a:EndpointReference><a:Address>[endpoint]</a:Address></a:EndpointReference></wsp:AppliesTo><t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType><t:RequestType>http://schemas.xmlsoap.org/ws/2005/02/trust/Issue</t:RequestType><t:TokenType>urn:oasis:names:tc:SAML:1.0:assertion</t:TokenType></t:RequestSecurityToken></s:Body></s:Envelope>\n",
-			"settings":
-			{
-				"buffer_size": 2555,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "saml=\"<s:Envelope xmlns:s=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:a=\"http://www.w3.org/2005/08/addressing\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"><s:Header><a:Action s:mustUnderstand=\"1\">http://schemas.xmlsoap.org/ws/2005/02/trust/RST/Issue</a:Action><a:ReplyTo><a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address></a:ReplyTo><a:To s:mustUnderstand=\"1\">https://login.microsoftonline.com/extSTS.srf</a:To><o:Security s:mustUnderstand=\"1\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><o:UsernameToken><o:Username>spadmin@buffalorock.com</o:Username><o:Password>SPadmin08</o:Password></o:UsernameToken></o:Security></s:Header><s:Body><t:RequestSecurityToken xmlns:t=\"http://schemas.xmlsoap.org/ws/2005/02/trust\"><wsp:AppliesTo xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2004/09/policy\"><a:EndpointReference><a:Address>https://buffalorock.sharepoint.com</a:Address></a:EndpointReference></wsp:AppliesTo><t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType><t:RequestType>http://schemas.xmlsoap.org/ws/2005/02/trust/Issue</t:RequestType><t:TokenType>urn:oasis:names:tc:SAML:1.0:assertion</t:TokenType></t:RequestSecurityToken></s:Body></s:Envelope>\"\n",
-			"settings":
-			{
-				"buffer_size": 1296,
-				"line_ending": "Unix",
-				"name": "saml=\"<s:Envelope xmlns:s=\"http://www.w3.org/2003/"
-			}
-		},
-		{
-			"contents": ">t=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAT2xCpk0dOCPeLAi0WGusCe9wJ/0/L8u5IylS355xQN5wr569N/5DzPaCu29/OmAFG8gHzM0XJ/G+YSjbHtn7SdrBYUCFkl45Btauo5qg7eqjfkLP7b8G4DH2CrvazyvJUQsWt1QtpZGoyDS7cD2n3Pzok/jnOD/PMoUr9WwXN5MKKC5WjGCXwA6zYVix7P5Su/JQhpMyXPoy4luPsLAObvdwAo3DQs4dQnhP1drHjGAWocc3n8TypLEsNRm0AQwhkr6F4MpTRfiT6VI9sRykfOyOJdeWEG5Jy/3u9J2js+N8My56R8HpGWuA4TbbcQWwsEI+veSnsjnGH1uggFucSEDZgAACJm+BeeKsk/EuAGjDIoPm2D424f9+cXRDTKXWABXx7oaIvlagsmWTNT5B6jchi2jTqxqGNk5xiWTjnkyZrlWvE8t457mewZNv0+/WmmLHKvWloD12jVtYmPWmY99RQvSfuW9LVLL351xhbpU6OUg+Qr7sMyEWWSS1xU+I/JsA6Ryd/l3DmmK7n2KlE1dG/ou9U4/u5foiZ+vGQGd+9xkFWf27Sm4oX6DQ4yZCAacNnK8IJQ3G79lgnD2dVf4of2nHqR9gjTLUZhVFL5+HCqcOmSIINPkSvbnesuawEzAuDPBNqR3V4tf9CL7TetWnW1EKyRNDS2TZCzeTAIGG1UAOBCxobph2O5eYB491WExjNOHUwnp7wpisilQyx4qIO59/Wabts2kzyx69jUn7208dtNLHXPAgPIp+LW5+4BjjYfaCUBGzsFMdiMTFw7UZt955ZmtlFXnGfsm01c1SkTvRyr17SY5og4jMleXbwuosQ5PYzC76v4VMAcckJB6L/d6egCNSUc8fv7px1cLeqiqJjs3RVyg3bdI1jZ/GrbKdgM9tTR7bJD1sVpxmlkeTY5hk1YDzfaxc+LjarEJle9Xohb+JRMC&amp;p=",
-			"settings":
-			{
-				"buffer_size": 1002,
-				"line_ending": "Unix",
-				"name": ">t=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAT2xCpk"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -398,10 +301,38 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Dropbox/git/dbtest"
+		"/C/Dropbox/git/kwiki-update",
+		"/C/Dropbox/git/kwiki-update/kwiki"
 	],
 	"file_history":
 	[
+		"/C/Dropbox/git/kwiki-update/database.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/__init__.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/views.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/models.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/log_models.py",
+		"/C/Dropbox/git/kwiki-update/manage.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/kwikiapp.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/ref/asdf.txt",
+		"/C/Dropbox/git/space-miner-server/sm_app/__init__.py",
+		"/C/Dropbox/git/space-miner-server/sm_app/models.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/login.py",
+		"/C/Dropbox/git/kwiki-update/kwiki/log_view.py",
+		"/C/Dropbox/git/kwiki-update/__init__.py",
+		"/C/Dropbox/git/kwiki/requirements.txt",
+		"/C/Dropbox/git/kwiki-update/README.md",
+		"/c/Dropbox/git/kwiki-update/.git/info/exclude",
+		"/C/Dropbox/git/buffalorock/dbtest/models.py",
+		"/C/Dropbox/git/kwiki/manage.py",
+		"/C/Dropbox/git/dbtest/manage.py",
+		"/C/Dropbox/git/dbtest/kwiki/kwikiapp.py",
+		"/C/Dropbox/git/dbtest/kwiki/views.py",
+		"/C/Dropbox/git/flasky/manage.py",
+		"/C/Dropbox/git/flasky/app/__init__.py",
+		"/C/Dropbox/git/flasky/app/app.py",
+		"/C/Dropbox/git/buffalorock/dbtest/template_app/templates/base.html",
+		"/C/Dropbox/git/buffalorock/dbtest/template_app/templates/navbar.html",
+		"/C/Dropbox/git/buffalorock/dbtest/kwiki/templates/index-me-navbar.html",
 		"/N/scripts/sharpy/sharpy.py",
 		"/D/Dropbox/br/ref/errorator-file-template.yaml",
 		"/N/saml.txt",
@@ -502,38 +433,11 @@
 		"/D/Dropbox/br/err-2015-07-06-02.yaml",
 		"/D/Dropbox/br/err-2015-07-06.yaml",
 		"/D/Dropbox/br/ref/resend-errors-2015-05-12.txt",
-		"/D/Dropbox/flasky/README.rst",
-		"/N/scripts/wmsbatstart.sh",
-		"/N/scripts/wmsdbstart.sh",
-		"/N/scripts/wmsbatstop.sh",
-		"/N/scripts/wmsappstop.sh",
-		"/N/scripts/wmsappstart.sh",
-		"/N/scripts/wmsdbstop.sh",
-		"/N/scripts/wing/150627123456.txt",
-		"/D/Dropbox/myscheduler.py",
-		"/D/Dropbox/br/ref/sdms-v5-copy-data-misc-commands.txt",
-		"//brmb11/d$/EntradaSC/SalesCommander/TCom/HostUL/UPL234873.dat.000000031000013230",
-		"/N/scripts/mbtracker/sched/templates/status/division.html",
-		"/D/Dropbox/br/U000000031-000013541.UPL-2015-06-1020-0.txt",
-		"//brit/c$/batch/OrderVerify.ps1",
-		"//brmb11/d$/EntradaSC/SalesCommander/TCom/Upload/Xpress/U000000011-000015021.UPL",
-		"//brmb13/d$/EntradaSC/SalesCommander/TCom/Upload/Xpress/Archive/U000000032000028351.UPL-2015-06-2418-1.txt",
-		"/D/Dropbox/br/evan/fd-unauth-prod-list-2015-06-29.txt",
-		"//brmb11/d$/EntradaSC/SalesCommander/TCom/HostUL/UPL234301.dat.000000020000030030",
-		"/N/scripts/mbtracker/~~1",
-		"/C/Users/evan/AppData/Local/Temp/7zO3097.tmp/pyAES.py",
-		"/C/Users/evan/AppData/Local/Temp/7zO12D8.tmp/SimpleGladeApp.py",
-		"/C/Users/evan/AppData/Local/Temp/7zO1BDE.tmp/gnome_connection_manager.py",
-		"/D/Dropbox/extract/gcm/gcm-1.1.0/ssh.expect",
-		"/D/Dropbox/portagrams/extraputty/ExtraPuTTY.h",
-		"/D/Dropbox/portagrams/extraputty/Examples/LabView/ExtraPutty.vi",
-		"/D/Dropbox/portagrams/extraputty/ExtraPuTTyTrace_Report[07 53 57][22 03 2015].html",
-		"/D/dropbox/br/ref/EDI Resends Procedure.enmd",
-		"/D/dropbox/br/ref/dde-v5-start-service.txt"
+		"/D/Dropbox/flasky/README.rst"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -821,327 +725,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2576,
-								2576
-							]
-						],
-						"settings":
-						{
-							"auto_name": "grep \"\\*864\\*\" /sc/ap/mailbox/walmart/i.* | wmfix",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 161,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								161,
-								161
-							]
-						],
-						"settings":
-						{
-							"auto_name": "urllib2",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12034,
-								12112
-							]
-						],
-						"settings":
-						{
-							"auto_name": "ready... https://buffalorock.sharepoint.com/Electr",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 484.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20528,
-								20528
-							]
-						],
-						"settings":
-						{
-							"auto_name": "at.x86_64                                     3.1.",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 589.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 728,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								727,
-								727
-							]
-						],
-						"settings":
-						{
-							"auto_name": "MSG*INVOICE NUMBER    PO NUMBER     ID        POS",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 42,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								42,
-								42
-							]
-						],
-						"settings":
-						{
-							"auto_name": "/sc/ap/mailbox/walmart/i.wmar.150702005002",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3760,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3760
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2448,
-								2494
-							]
-						],
-						"settings":
-						{
-							"auto_name": "[root@brops mbtracker]# curl -vvv -X POST -H \"User",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 210.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9,
-								9
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 56.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1296
-							]
-						],
-						"settings":
-						{
-							"auto_name": "saml=\"<s:Envelope xmlns:s=\"http://www.w3.org/2003/",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1002,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1002,
-								1002
-							]
-						],
-						"settings":
-						{
-							"auto_name": ">t=EwDoAk6hBwAUbl/sgipYGM8TysUFtClJteGnuzoAAT2xCpk",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1253,8 +838,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 121.0,
+	"side_bar_visible": true,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

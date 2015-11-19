@@ -28,15 +28,6 @@ class User(Base):
     active = Column(Boolean, default=True)
     email = Column(String(100), unique=True, nullable=False)
     _password = Column('password', String(100))
-    # game_id = Column(Integer, ForeignKey('game.id'))
-    current_game = Column(Integer)
-    # user = relationship(
-    #     'User',
-    #     backref='games',
-    #     primaryjoin='Game.user_id == User.id',
-    #     lazy='joined',
-    # )
-
 
     def _get_password(self):
         return self._password
@@ -66,13 +57,6 @@ class User(Base):
         if not user.active:
             return user, False
         return user, user.check_password(password)
-
-    def get_game(self):
-        for g in self.games:
-            if g.is_active():
-                self.current_game = g.id
-                self.game = g
-                return self.game
 
     # Hooks for Flask-Login.
     #
